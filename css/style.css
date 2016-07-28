@@ -91,3 +91,7 @@ p, h5 {
   top: 0;
   right: 0;
 }
+
+.tcenter {
+  text-align: center;
+}
