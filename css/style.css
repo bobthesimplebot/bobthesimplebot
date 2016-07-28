@@ -73,3 +73,21 @@ html {
 p, h5 {
   font-family: "Roboto", sans-serif;
 }
+
+.fright {
+  float: right;
+}
+
+.fleft {
+  float: left;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

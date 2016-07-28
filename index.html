@@ -19,7 +19,7 @@
         <li><a href="#">Home</a></li>
         <li><a href="#">Map Editor</a></li>
         <li><a href="#">Map Market</a></li>
-        <li><a href="#">Github</a></li>
+        <li><a href="https://github.com/matthieuraymond/logicgame">Github</a></li>
         <li><a href="#">Help</a></li>
       </ul>
 
@@ -40,7 +40,8 @@
           <h5 class="header col s12 light red-text text-darken-4">A simple game for children. Teaching them logic basics.</h5>
         </div>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light red darken-4">Download</a>
+
+          <a class="btn-large waves-effect waves-light red darken-4 modal-trigger" href="#downloadModal" id="download-button">Download</a>
         </div>
         <br><br>
 
@@ -166,6 +167,57 @@
     </div>
   </footer>
 
+   <!-- Modal -->
+   <div id="downloadModal" class="modal">
+     <div class="modal-content">
+       <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat top-right">X</a>
+       <h4>Download the game</h4>
+
+       <div class="row no-padding no-margin">
+         <div class="col s12 m4">
+           <div class="icon-block">
+             <h2 class="center brown-text"><img src="img/java.png" /></h2>
+             <h5 class="center">All platform</h5>
+
+             <p class="light">If you have a <b>Java Runtime Environment (JRE)</b> installed on your machine (which you probably have), download this jar and double click on it. (Min Java version: 1.7)</p>
+           </div>
+         </div>
+
+         <div class="col s12 m4">
+           <div class="icon-block">
+             <h2 class="center brown-text"><img src="img/windows.png" /></h2>
+             <h5 class="center">Windows</h5>
+
+             <p class="light">If you have <b>Windows</b>, you can download this executable file and just double click on it (it is portable).</p>
+           </div>
+         </div>
+
+         <div class="col s12 m4">
+           <div class="icon-block">
+             <h2 class="center brown-text"><img src="img/mac.png" /></h2>
+             <h5 class="center">Mac</h5>
+
+             <p class="light">If you have <b>Mac OS</b>, you can download this application file and just double click on it (it is portable), however you might have to disable Gatekeeper.</p>
+           </div>
+         </div>
+       </div>
+
+       <div class="row">
+         <div class="col s12 m4">
+           <a class="btn waves-effect waves-light red darken-4" href="https://github.com/matthieuraymond/logicgame/blob/master/release/Bob_the_simplebot.jar?raw=true" target="_blank" id="download-button">Download JAR</a>
+         </div>
+
+         <div class="col s12 m4">
+           <a class="btn waves-effect waves-light red darken-4" href="https://github.com/matthieuraymond/logicgame/blob/master/release/Bob_the_simplebot.exe?raw=true" target="_blank" id="download-button">Download EXE</a>
+         </div>
+
+         <div class="col s12 m4">
+           <a class="btn waves-effect waves-light red darken-4" href="https://github.com/matthieuraymond/logicgame/blob/master/release/Bob_the_simplebot.app?raw=true" target="_blank" id="download-button">Download APP</a>
+         </div>
+       </div>
+
+     </div>
+   </div>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
